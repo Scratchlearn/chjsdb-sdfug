@@ -1,0 +1,38 @@
+ .benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    margin: 20px 0; 
+  }
+  
+  .benefits h2 {
+    margin-bottom: 20px; 
+  }
+  
+  .benefits ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px;
+  }
+  
+  .benefits li {
+    padding: 20px;
+    width: 25%;
+    margin: 10px;
+    font-size: 1.1em;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #d8ed54;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
